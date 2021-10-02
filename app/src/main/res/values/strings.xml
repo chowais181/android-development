@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Application181</string>
+    <string name="welcome">welcome</string>
+    <string name="dinning">dinning</string>
+    <string name="bathroom">bathroomm</string>
+    <string name="kids_room">kids_room</string>
+    <string name="bedroom">bedroom</string>
+    <string name="kitchen">kitchen</string>
+    <string name="living_room">living_room</string>
+    <string name="name">NAME</string>
+    <string name="email">EMAIL</string>
+    <string name="cell">CELL</string>
+    <string name="semester">SEMESTER</string>
+    <string name="gpa">GPA</string>
+    <string name="student_information_form">STUDENT INFORMATION FORM</string>
+    <string name="name1">Name</string>
+    <string name="name2">Name</string>
+    <string name="name3">Name</string>
+    <string name="name4">Name</string>
+    <string name="send">Send</string>
+    <string name="_123456789">123456789</string>
+    <string name="_6th">6th</string>
+    <string name="_4_0">4.0</string>
+    <string name="nam">name</string>
+    <string name="abc_email_com">abc@email.com</string>
+    <string name="back">back</string>
+    <string name="dial">dial</string>
+    <string name="camera">camera</string>
+    <string name="button">Button</string>
+    <string name="gallery">gallery</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="your_toast">your toast</string>
+    <string name="todo">TODO</string>
+    <string name="hi">hi</string>
+    <string name="go_to_second">Go to second</string>
+    <string name="request_permisson">Request Permisson</string>
+    <string name="check_permission">Check Permission</string>
+    <string name="read_context_permission">Read Context permission</string>
+
+</resources>

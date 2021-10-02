@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4DFDE"
+    tools:context=".student_form_output">
+
+    <TextView
+        android:id="@+id/t2txthead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_weight="1"
+        android:text="@string/student_information_form"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t2txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="68dp"
+        android:layout_weight="1"
+        android:text="@string/name"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/t2txtemail"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/t2txtname1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/t2txtemail1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toEndOf="@+id/t2txtname" />
+
+    <TextView
+        android:id="@+id/t2txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:text="@string/email"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/t2txtcell"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t2txtemail1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/t2txtcell1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/t2txtemail"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t2txtcell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="60dp"
+        android:layout_weight="1"
+        android:text="@string/cell"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/t2txtsemester"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/t2txtcell1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/t2txtsemester1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.591"
+        app:layout_constraintStart_toEndOf="@+id/t2txtcell"
+        app:layout_constraintTop_toTopOf="@+id/t2txtcell"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/t2txtsemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="36dp"
+        android:layout_weight="1"
+        android:text="@string/semester"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/t2txtgpa"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/t2txtsemester1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/t2txtgpa1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toEndOf="@+id/t2txtsemester" />
+
+    <TextView
+        android:id="@+id/t2txtgpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="124dp"
+        android:layout_weight="1"
+        android:text="@string/gpa"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/t2txtgpa1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+
+        app:layout_constraintBottom_toTopOf="@+id/t2btnback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toEndOf="@+id/t2txtgpa"
+        app:layout_constraintTop_toTopOf="@+id/t2txtgpa"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <Button
+        android:id="@+id/t2btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="Back"
+        android:background="#673AB7"
+        android:text="@string/back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/t2txtgpa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
