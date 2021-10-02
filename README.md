@@ -20,12 +20,16 @@
 
 - Permission Activity
 
+![project Display](https://github.com/chowais181/android-development/blob/master/activities%20scereen%20shots/permissions.png)
+
+- Permission Activity pop up
+
 ![project Display](https://github.com/chowais181/android-development/blob/master/activities%20scereen%20shots/Permission%20pop%20up.png)
 
 
-- Permission Activity
+- GO TO SECOND ACTIVITY AND BACK TO FIRST ONE
 
-![project Display](https://github.com/chowais181/android-development/blob/master/activities%20scereen%20shots/Permission%20pop%20up.png)
+![project Display](https://github.com/chowais181/android-development/blob/master/activities%20scereen%20shots/move%20to%202nd%20and%20come%20to%201st%20activity.png)
 
 
 - Dial and goole Activity
@@ -39,20 +43,10 @@
 
 
 
-
-- Delete Patient Record after Quarantine
-
-![project Display](https://github.com/chowais181/Covid-19-Management-/blob/main/view/delete%20quaranine.PNG)
-
-- Update Quarnatine Centers
-
-![project Display](https://github.com/chowais181/Covid-19-Management-/blob/main/view/update%20quarantine%20centers.PNG)
-
-### How to run this web page
-1. Put project in xamppp folder in the c local disk
-2. Then put the htdoc folder paste the complete project here
-3. Start the xampp open the sql and the appache.
-4. Go to chrome and then search 
-            http://localhost:8080/web (path)
-5. Open it and enjoy.
+### How to run this APP
+1. DOWNLOAD THE ZIP.
+2. EXTRACT IT.
+3. OPEN WITH ANDROID STUDIO.
+4. RUN THE ACTIVITY BY SELECTING ONE BY ONE.
+5. SELECT THE EMULATOR AND ENJOY.
 
